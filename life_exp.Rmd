@@ -1,0 +1,30 @@
+---
+title: "Life expectancey analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Abstract
+
+Here we will examine the relationship between time and maximum life expectancey as observed by Oeppen and Vaupel (2002).
+
+#Analysis
+
+After some analysis we reached the same conclusion.
+
+Loads data
+```{r}
+library(gapminder)
+data("gapminder_unfiltered")
+gapminder_unfiltered
+```
+
+plot
+```{r}
+library(tidyverse)
+
+```
+
