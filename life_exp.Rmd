@@ -25,6 +25,7 @@ gapminder_unfiltered
 plot
 ```{r}
 library(tidyverse)
-
+ggplot(gapminder_unfiltered,aes(year, lifeExp,color=continent))+ 
+         geom_point()
 ```
 
