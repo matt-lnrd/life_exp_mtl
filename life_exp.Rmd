@@ -29,3 +29,8 @@ ggplot(gapminder_unfiltered,aes(year, lifeExp,color=continent))+
          geom_point()
 ```
 
+Calculate maximum
+```{r}
+
+```
+
